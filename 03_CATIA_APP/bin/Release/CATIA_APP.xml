@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CATIA_APP
+</name>
+</assembly>
+<members>
+<member name="P:_03_CATIA_APP.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.AIRBUS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.CUBO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.DWG_ico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.DWG_ico1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.DXF_ico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.DXF_ico1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.FREE_RENAMING">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.Links_span">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.PDF_file_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.Proyectar_SKETCH">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.Renombrar_instancias">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.Renombrar_producto">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.RENOMBRAR_SEL_PUNTOS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:_03_CATIA_APP.My.Resources.Resources.tabla">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:_03_CATIA_APP.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
