@@ -1,0 +1,49 @@
+Language="VBSCRIPT"
+
+Sub CATMain()
+
+'On Error Resume Next
+
+Set Seleccion = CATIA.ActiveDocument.Selection
+Seleccion.Clear
+
+'  Seleccion del sketch
+Dim ElementoTipo(0) 
+ElementoTipo(0)="Sketch"
+Resultado = Seleccion.SelectElement2(ElementoTipo,"SELECCIONA EL SKETCH",true)
+If Resultado = "Cancel" then
+   Exit Sub
+End if
+Set sketch1 = Seleccion.Item(1).Value
+Dim factory2D1 As Factory2D
+Set factory2D1 = sketch1.OpenEdition()
+Seleccion.Clear
+
+Set Elemseleccionados = CATIA.ActiveDocument.Selection
+ProyectarPunto = True
+do while ProyectarPunto
+  Selinter Elemseleccionados, Resultado
+  If Resultado = "Cancel" then
+     sketch1.CloseEdition
+     ProyectarPunto = False
+     Exit Sub
+  End if
+  Set reference1 = Elemseleccionados.Item(1).Value
+  Set geometricElements1 = factory2D1.CreateProjection(reference1)
+  geometricElements1.Name = Elemseleccionados.Item(1).Value.Name
+  Elemseleccionados.Clear
+loop
+
+End Sub
+
+' ---------------------------------------------
+' ---------------------------------------------
+'Subrutina para Elegir INTERACTIVAMENTE PUNTOS
+
+Sub Selinter(Elemseleccionados, Resultado)
+
+ReDim ElementoTipo(0)
+ElementoTipo(0)="Point"
+Resultado = Elemseleccionados.SelectElement2(ElementoTipo,"SELECCIONA UN PUNTO",true)
+
+End Sub
